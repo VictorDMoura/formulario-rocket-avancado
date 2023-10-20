@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: #bfd7e4;
+}
+
+body::before {
+  content: "";
+  background: #293241;
+  width: 100%;
+  height: 465px;
+
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: 0 auto;
+}
+
+h1,
+legend,
+button,
+h3,
+.button {
+  font-family: "Staatliches", sans-serif;
+}
+
+header {
+  margin-top: 107px;
+  color: #fff;
+}
+
+header p {
+  height: 46px;
+}
+
+header .form-title {
+  border-radius: 20px 20px 0 0;
+  background: #f67669;
+  margin-top: 32px;
+  height: 133px;
+  width: 100%;
+  padding: 50px 275px;
+}
+
+header .form-title h3 {
+  font-family: Staatliches;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+form {
+  min-height: 300px;
+  background: #fff;
+  padding: 0 64px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+form fieldset {
+  border: 0;
+}
+
+form legend {
+  color: #253b51;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e6e6f0;
+}
+
+form .personal-info,
+form .mentor-info {
+  padding: 30px 0;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.input-wrapper label {
+  text-align: left;
+  color: #4e4958;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.input-wrapper input,
+.input-wrapper select,
+.input-wrapper textarea {
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+
+  font-size: 16px;
+  line-height: 26px;
+  color: #64616a;
+  padding: 0 24px;
+}
+
+.input-wrapper span {
+  color: #c1bccc;
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 9px;
+}
+
+.user-info-name {
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 22px;
+}
+
+.mentor-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+.user-info-name input {
+  width: 300px;
+}
+
+.input-wrapper select {
+  width: 50%;
+  appearance: none;
+}
+
+.input-wrapper textarea {
+  padding: 0;
+  width: 608px;
+  height: 166.586px;
+}
+
+.checkbox-wrapper {
+  position: relative;
+}
+
+.checkbox-wrapper input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox-wrapper label {
+  position: absolute;
+  top: 0;
+  left: 30px;
+
+  color: #4e4958;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.fieldset-date{
+    margin-top: 40px;
+}
+.date-wrapper {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.date-wrapper > div:nth-child(1) {
+  width: 100%;
+  margin-right: 22px;
+}
+
+form .button {
+  margin: 64px 0;
+  border: none;
+  width: 622px;
+  height: 51px;
+  padding: 15px 40px;
+  border-radius: 8px;
+  background: #f67669;
+
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+form .button:hover {
+  background: #c55f54;
+  cursor: pointer;
+}
